@@ -33,7 +33,7 @@ function calculate() {
   }
   localStorage.setItem("result", result);
   return false;
-  
+}
 document.getElementById("myBtn").addEventListener("click",
 function() {
   document.getElementById("res").innerHTML = localStorage.getItem("result");
