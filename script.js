@@ -1,4 +1,4 @@
-function qalyn() {
+function calculate() {
   var num1 = Number(document.getElementById("education").value);
   console.log(num1);
   var result = 500;
@@ -33,4 +33,6 @@ function qalyn() {
   }
   localStorage.setItem("result", result);
   return false;
+  
+  document.getElementById("res").innerHTML = localStorage.getItem("result");
 }
